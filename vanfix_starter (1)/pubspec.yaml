@@ -1,0 +1,20 @@
+name: vanfix_estimator
+description: Starter app to capture van damage and estimate repair cost.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.7+5
+  path_provider: ^2.0.14
+  shared_preferences: ^2.1.1
+  flutter_svg: ^1.1.6
+  provider: ^6.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
